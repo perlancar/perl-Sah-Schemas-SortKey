@@ -68,7 +68,7 @@ sub gen_completion {
             complete_value => sub {
                 my %cvargs = @_;
                 my $key = $cvargs{key};
-                return [] unless $mata->{args}{$key};
+                return [] unless $meta->{args}{$key};
                 return [] unless $meta->{args}{$key}{schema};
 
                 require Perinci::Sub::Complete;

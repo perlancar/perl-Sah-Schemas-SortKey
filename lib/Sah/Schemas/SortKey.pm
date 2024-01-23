@@ -1,5 +1,7 @@
 package Sah::Schemas::SortKey;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
@@ -8,6 +10,6 @@ package Sah::Schemas::SortKey;
 1;
 # ABSTRACT: Sah schemas related to SortKey
 
-=head1 append:SEE ALSO
+=head1 SEE ALSO
 
 L<SortKey>
