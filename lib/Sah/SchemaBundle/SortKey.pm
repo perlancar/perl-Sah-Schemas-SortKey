@@ -1,4 +1,4 @@
-package Sah::Schemas::SortKey;
+package Sah::SchemaBundle::SortKey;
 
 use strict;
 
@@ -10,6 +10,6 @@ use strict;
 1;
 # ABSTRACT: Sah schemas related to SortKey
 
-=head1 SEE ALSO
+=head1 prepend:SEE ALSO
 
 L<SortKey>
